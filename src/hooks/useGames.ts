@@ -13,7 +13,8 @@ export interface Game {
     name: string;
     background_image:string;
     //object which has type plaform
-    parent_platforms: {platform:Platform}[]
+    parent_platforms: {platform:Platform}[];
+    metacritic: number
   }
   
   interface FetchGamesResponse {
