@@ -17,7 +17,7 @@ const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
     { value: "-rating", label: "Average Rating" },
   ];
   const currentSortOrder = sortOrders.find(
-    (order) => order.label === sortOrder
+    (order) => order.value === sortOrder
   );
 
   return (
