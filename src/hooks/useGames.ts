@@ -14,7 +14,8 @@ export interface Game {
     background_image:string;
     //object which has type plaform
     parent_platforms: {platform:Platform}[];
-    metacritic: number
+    metacritic: number;
+    rating_top:number;
   }
   
   
