@@ -7,6 +7,8 @@ import useGameQueryStore from "../store";
 export interface Game {
     id: number;
     name: string;
+    slug:string;
+    description_raw:string;
     background_image:string;
     //object which has type plaform
     parent_platforms: {platform:Platform}[];
